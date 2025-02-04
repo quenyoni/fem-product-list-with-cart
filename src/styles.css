@@ -13,6 +13,8 @@
 --border-radius:10px;
 
 }
+/* 
+Fonts */
 
 @font-face {
     font-family:'redHat1' ;
@@ -22,6 +24,8 @@
     font-family:'italic' ;
     src: url('../public/assets/fonts/RedHatText-Italic-VariableFont_wght.ttf');
 }
+
+/* CSS Reset */
 
 *{
     margin:0;
@@ -40,20 +44,12 @@ body{
     
 }
 
+
+
 .main__heading{
     font-weight: 700;
 }
 
-.container {
-    max-width: 1440px;
-    margin:2rem auto;
-    padding-inline: 2rem;
-    
-    display:grid;
-    gap:2rem;
-    grid-template-columns:  1fr;
-    
-}
 
 
 /* Utility Classes */
@@ -70,6 +66,21 @@ display: flex;
     
     gap:.25rem;
 }
+
+.container {
+    max-width: 1440px;
+    margin:2rem auto;
+    padding-inline: 2rem;
+    
+    display:grid;
+    gap:2rem;
+    grid-template-columns:  1fr;
+    
+}
+
+
+
+
 
 
 #main{
